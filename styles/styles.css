@@ -42,9 +42,7 @@ address{
     align-items: flex-start;
     justify-self: end;
 }
-/*
-шапка
-*/
+/*шапка*/
 .cover{
     position: relative;
     min-height: 757px;
@@ -190,9 +188,7 @@ address{
     margin: auto 42px;
     text-underline-offset: 5px;
 }
-/*
-лоты
-*/
+/*лоты*/
 .about {
     min-height: 595px;
     margin: 116px 24px 0px 24px;
@@ -243,9 +239,7 @@ address{
     height: 114px;
 
 }
-/*
-about
-*/
+/*about*/
 
 .footer{
     margin-right: 50px;
@@ -285,18 +279,3 @@ about
     width: 48px;
     height: 48px;
 }
-
-
-/*
-footer — подвал;
-address — такой класс уже есть в вашей вёрстке, все вложенные элементы аналогичны;
-footer__menu — блок навигации по списку ссылок. Рекомендуем вложить список в тег <nav> с этим классом;
-footer__menu-list — список пунктов меню;
-footer__menu-list-item — пункт списка меню;
-footer__menu-link — каждая ссылка в пункте списка;
-footer__menu-link_active — выбранная ссылка меню (без подчёркивания);
-footer__social-list — список ссылок на социальные сети. Можно не добавлять тег <nav>, потому что ссылки ведут на внешние ресурсы;
-footer__social-list-item — пункт списка ссылок на социальные сети;
-footer__social-link — ссылка на социальные сети;
-footer__social-icon — иконка социальной сети.
-*/
