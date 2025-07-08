@@ -1,7 +1,5 @@
 .header {
-  margin-top: 93px;
-  margin-bottom: 93px;
-  padding: 0px 50px;
+  padding: 118px 50px 93px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
