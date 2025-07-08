@@ -47,6 +47,10 @@
 .header__address {
   justify-self: end;
 }
+
+.address__text{
+  text-decoration: none;
+}
 /*шапка*/
 
 .cover {
@@ -157,6 +161,7 @@
   justify-content: space-between;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   /*нужно быть аккуратнее с флекс-флоу, т.к. в случае переопределения одного из значений придётся переписывать свойство целиком, повторяя второе значение, которое не меняется*/
 }
 
@@ -170,16 +175,13 @@
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: 550px 600px;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: 535px 595px;
 }
 
 .card_type_picture {
-  background-size: cover;
   background-image: url(../images/card-lot-03.jpg);
 }
 
